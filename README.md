@@ -8,7 +8,10 @@ the bot was written in python 2.7 make sure you have this installed and set as t
 ## start the bot
 
 ### manualy
-to start the bot manualy go to the directory you cloned beetusbot in and type ./start.sh
+to start the bot manualy go to the directory you cloned beetusbot in and type
+
+	./start.sh
+
 if it doesn't work, make sure you have execute permissions on this file
 
 ### cron
