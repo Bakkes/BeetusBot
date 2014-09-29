@@ -13,12 +13,11 @@ make sure you have the required python dependecies with pip
 	# pip install praw
 	# pip install mysql-python
 
+no goto start the bot to learn how to start it
+
 ### compatibility
 the bot was written in python 2.7 make sure you have this installed and set as the system default.
-If you don't know how to change the system default, type in google: "python set systemdefault [distro name]". On gentoo:
-
-	# eselect python list
-	# eselect python set <whatever number was version 2.7>
+If you don't know how to change the system default, type in google: "python set systemdefault <distro name>".
 
 ## start the bot
 
@@ -42,6 +41,11 @@ to start them both use
 
 	$ start.sh both
 
+### log output
+
+the output of the bot is stored in `beetuslog/log-<currentdate>.log` you can follow the output with
+
+	$ tail -f beetuslog/log-<currentdate>.log
 
 ## TODO
 Rewrite everything
