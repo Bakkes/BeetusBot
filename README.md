@@ -15,6 +15,10 @@ make sure you have the required python dependecies with pip
 
 ### compatibility
 the bot was written in python 2.7 make sure you have this installed and set as the system default.
+If you don't know how to change the system default, type in google: "python set systemdefault [distro name]". On gentoo:
+
+	# eselect python list
+	# eselect python set <whatever number was version 2.7>
 
 ## start the bot
 
