@@ -38,15 +38,15 @@ function runBotAndSubscription(){
 }
 
 # read the first argument to see if user already made up his mind
-if [ $1 = "bot" ]
+if [ "$1" = "bot" ]
 then
 	runBot
 	exit 1
-elif [ $1 = "subscription" ]
+elif [ "$1" = "subscription" ]
 then
 	runSubscription
 	exit 1
-elif [ $1 = "both"]
+elif [ "$1" = "both" ]
 then
 	runBotAndSubscription
 	exit 1
@@ -57,7 +57,7 @@ option_1="Run both the subscription service and the bot"
 option_2="Run the bot"
 option_3="Run the subscription service"
 option_4="Quit"
-options=($option_1 $option_2 $option_3 $option_4)
+options=("$option_1" "$option_2" "$option_3" "$option_4")
 select opt in "${options[@]}"
 do
     case $opt in
